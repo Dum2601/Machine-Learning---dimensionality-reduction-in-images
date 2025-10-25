@@ -25,7 +25,7 @@ def binarize_image(gray_image, threshold=128):
     
     return bw
 
-image_path = 'programacao/data-science/Estudo/Formacao_dio_machine_learning/Projetos_formacao/Redução de Dimensionalidade em Imagens para Redes Neurais/imagens/Serial Experiments Lain Wallpaper HD Pictures For.jpg'
+image_path = '' # the path of your image file has to be in this variable
 
 gray_img = to_grayscale(image_path)
 gray_img.show() 
